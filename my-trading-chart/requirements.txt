@@ -1,0 +1,29 @@
+# Frontend Dependencies
+# React & DOM
+react==19.1.0
+react-dom==19.1.0
+
+# Tauri Integration
+@tauri-apps/api==2.0.0
+@tauri-apps/plugin-opener==2.0.0
+@tauri-apps/cli==2.0.0
+
+# Charting
+chartgpu==0.3.2
+
+# Build Tools
+vite==7.0.4
+@vitejs/plugin-react==4.6.0
+
+# Styling
+tailwindcss==4.3.1
+autoprefixer==10.5.0
+postcss==8.5.15
+
+# Rust Backend (Tauri)
+# See src-tauri/Cargo.toml for Rust dependencies
+# - tauri = 2
+# - tauri-plugin-opener = 2
+# - serde = 1 (with derive feature)
+# - serde_json = 1
+# - tauri-build = 2 (build dependency)
